@@ -58,8 +58,9 @@ button {
   width: 240.1px; 
   height:200.1px; 
   font-size: 30px;
-  font-family:Tahoma;
+  font-family:sans-serif;
   text-align: center; 
+  font-weight: 900;
   color:white;
   border-radius: 5%;
   border:1px solid #4E21E2;
