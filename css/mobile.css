@@ -18,7 +18,7 @@ h1 {
   width: 240.1px; width: 240.1px; 
   height: 240.1px;
   padding: 60px 50px 50px 25px;
-
+     
 }
 
 h2 { 
@@ -29,8 +29,8 @@ h2 {
   font-size: 60; 
   margin: 30px 00px 75px -5px;
   padding: 30px 5px 50px 25px;
-
-
+  
+ 
  }
 #container{
   margin: 20px 0px 00px 0px;
@@ -40,7 +40,7 @@ h2 {
   font-family:sans-serif;
   text-align: center; 
   color: #FFffff; 
-  background:#FF0000;
+  background:#55BEEC;
   word-wrap: break-word; 
   margin: -50px 10px 00px -20px;
   line-height: 60px; 
@@ -48,8 +48,9 @@ h2 {
   padding: 50px 50px;
   border-radius:100px 100px 0px 100px;  
   width: 770px; 
-
+  
 }
+
 
 button {
   position: absolute; 
@@ -66,4 +67,6 @@ button {
   margin: 40px 70px 36px 250px; 
   border: none;
   padding: 100px 80x 90px 250px;
+
 }
+
