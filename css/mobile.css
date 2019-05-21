@@ -51,7 +51,6 @@ h2 {
 
 }
 
-
 button {
   position: absolute; 
   background: rgb(0, 144, 255);
@@ -67,5 +66,4 @@ button {
   margin: 40px 70px 36px 250px; 
   border: none;
   padding: 100px 80x 90px 250px;
-
 }
