@@ -2,20 +2,17 @@ head {
   background-color:B0B0B0; 
 }
 
-
 div{
 
 }
-a {
-  margin: 290px 0px 0px 1280px;
-  padding: 60px 50px 50px 25px;
-  background-color: #B0B0B0;
-  color: white;
-  padding: 14px 25px;
+footer {
+  margin: 450px 0px 0px 0px;
+  color: #00000;
   text-align: center; 
-  text-decoration: none;
-  display: inline-block;
+}
 
+a{
+  color:#000000;
 }
 
 body {
