@@ -5,16 +5,14 @@ head {
 div{
 
 }
-a {
-  margin: 290px 0px 0px 439px;
-  padding: 60px 50px 50px 25px;
-  background-color: #9F9C9C;
-  color: white;
-  padding: 14px 25px;
+footer {
+  margin: 500px 0px 0px 50px;
+  color: #00000;
   text-align: center; 
-  text-decoration: none;
-  display: inline-block
+}
 
+a{
+  color:#000000;
 }
 
 body {
