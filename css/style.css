@@ -8,10 +8,10 @@ div{
 }
 footer {
   margin-top: 200px;
+  padding: 0px, 10px;
   color: #00000;
   text-align: center; 
-  bottom: 5.5%;
-  white-space: nowrap;
+  display:block;
 }
 
 a{
