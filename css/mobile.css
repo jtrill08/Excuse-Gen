@@ -5,11 +5,16 @@ head {
 div{
 
 }
-footer {
-  margin: 540px 0px 0px 50px;
-  color: #00000;
-  text-align: center;
-  font-size: 16px; 
+footer{
+	white-space: nowrap;
+	bottom: 5.5%;
+	width: 90%;
+	position: fixed;
+}
+
+footer a{
+	font-size: small;
+	font-weight: normal;
 }
 
 a{
