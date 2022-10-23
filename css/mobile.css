@@ -8,14 +8,15 @@ div{
 footer{
 	white-space: nowrap;
 	bottom: 5.5%;
-	width: 90%;
-	position: fixed;
+	margin: 540px 0px 0px 50px;
+	text-align: center;
 }
 
 footer a{
-	font-size: small;
+	font-size: 16px ;
 	font-weight: normal;
 }
+
 
 a{
   color:#000000;
