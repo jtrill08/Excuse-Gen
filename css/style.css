@@ -6,11 +6,16 @@ head {
 div{
 
 }
-footer {
-  margin-top: 200px;
-  padding: 3px;
-  color: #00000;
-  text-align: center; 
+footer{
+	white-space: nowrap;
+	bottom: 5.5%;
+	width: 90%;
+	position: fixed;
+}
+
+footer a{
+	font-size: small;
+	font-weight: normal;
 }
 
 a{
