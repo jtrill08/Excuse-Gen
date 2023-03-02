@@ -39,7 +39,7 @@ h1 {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 35%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -54,16 +54,16 @@ h1 {
   margin: 1rem auto 0;
   line-height: 2rem; /* changed from 20px */
   align-content: center;
-  padding: 2rem 1rem; /* changed from 50px */
+  padding: 4rem 2rem; /* changed from 50px */
   border-radius: 10rem 10rem 0 10rem; /* changed from 100px 100px 0 100px */
-  width: 60%;
+  width: 100%;
   max-width: 50rem; /* added */
   position: relative;
 }
 
 button {
   display: block;
-  margin: 2rem auto 0;
+  margin: 10rem auto 0 auto;
   position: relative;
   top: 1rem; /* changed from 50px */
   background: rgb(0, 144, 255);
