@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smithsonian Open Access API</title>
+</head>
+<body>
+  <h1>Random Smithsonian Content</h1>
+  <button id="fetchContent">Fetch Random Content</button>
+  <div id="contentDisplay" style="display: none;">
+    <h2 id="contentTitle"></h2>
+    <p id="contentDescription"></p>
+  </div>
+
+  <script>
+    document.getElementById('fetchContent').addEventListener('click', fetchRandomContent);
+
+    function fetchRandomContent() {
+      fetch('https://api.si.edu/openaccess/api/v1.0/content/random', {
+        headers: {
+          'X-Api-Key': '7UXNA5kDP2a1dCnnvqZt7j4nx6WdQRIC0rlJWLM8',
+          'Origin': 'https://your-website-domain.com' // Replace with your website's domain
+        },
+        mode: 'cors'
+      })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        displayContent(data.response);
+      })
+      .catch(error => {
+        console.error('Error fetching content:', error);
+      });
+    }
+
+    function displayContent(content) {
+      const contentDisplay = document.getElementById('contentDisplay');
+      const contentTitle = document.getElementById('contentTitle');
+      const contentDescription = document.getElementById('contentDescription');
+
+      contentTitle.textContent = content.title;
+      contentDescription.textContent = content.content.description; // You may need to adjust this based on the actual schema
+
+      contentDisplay.style.display = 'block';
+    }
+  </script>
+</body>
+</html>
