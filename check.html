@@ -14,9 +14,11 @@
   <script>
     document.getElementById('fetchContent').addEventListener('click', fetchRandomContent);
 
+    const apiKey = '7UXNA5kDP2a1dCnnvqZt7j4nx6WdQRIC0rlJWLM8'; // Replace with your actual API key
+
     function fetchRandomContent() {
       const script = document.createElement('script');
-      script.src = 'https://api.si.edu/openaccess/api/v1.0/content/random?callback=handleResponse';
+      script.src = `https://api.si.edu/openaccess/api/v1.0/content/random?callback=handleResponse&api_key=${apiKey}`;
       document.body.appendChild(script);
     }
 
